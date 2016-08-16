@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"> 
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="copyright" content="Copyright (c) 2007 Mozilla Japan and Mozilla Corporation. All rights reserved." />
+	<link rel="alternate" type="application/rss+xml" title="最新ニュース" href="/video/feed/" />
+	<title>2007 Get Firefox ビデオアワード | ギャラリー</title>
+	<style type="text/css" media="screen">
+	@import "/video/wp-content/themes/videoawards/css/global.css?122020071900";
+	@import "/video/wp-content/themes/videoawards/css/gallery.css?122020071900";
+	</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+		<div id="sidebar">
+		<h1><a href="http://getfirefox.jp/video/">Get Firefox ビデオアワード 2007</a></h1>
+		<ul id="nav">
+			<li id="home"><a href="/video/">ホーム</a></li>
+			<li id="award"><a href="/video/join/">参加方法</a></li>
+			<li id="party"><a href="/video/about/">開催概要</a></li>
+			<li id="navGallery"><span class="current">ビデオを投票する</span></li>
+			<li id="spread"><a href="/video/spread/">広める</a></li>
+			<li id="faq"><a href="/video/faq/">FAQ</a></li>
+			<li id="news"><a href="/video/news/">News</a></li>
+			<li id="firefox"><a href="/video/about-firefox/">Firefox って？</a></li>
+			<li id="contact"><a href="/video/contact/">お問い合わせ</a></li>
+		</ul>
+
+		<div id="sponsors">
+			<h3>主催</h3>
+			<div id="mozilla">
+				<a href="http://www.mozilla-japan.org/">Mozilla Japan</a>
+			</div>
+			<h3>共催</h3>
+			<div id="eyevio">
+				<a href="http://eyevio.jp/">eyeVio</a>
+			</div>
+			<div id="loftwork">
+				<a href="http://www.loftwork.com/">Loftwork</a>
+			</div>
+			<h3>協力</h3>
+			<ul id="cooperation">
+				<li id="coop-adobe"><a href="http://www.adobe.com/jp/">アドビ システムズ 株式会社	</a></li>
+				<li id="coop-wacom"><a href="http://tablet.wacom.co.jp/">株式会社ワコム</a></li>
+				<li id="coop-sony"><a href="http://www.sonycreativesoftware.com/">Sony Creative Software</a></li>
+				<li id="coop-ccjp"><a href="http://www.creativecommons.jp/">NPO 法人 クリエイティブ・コモンズ・ジャパン</a></li>
+			</ul>
+			<div id="wacom">
+				<a href="http://cintiq.jp/product/cintiq12.html">Wacom Cintiq</a>
+			</div>
+		</div>
+		
+	</div>
+	<div id="content" class="gallery">
+		<div id="header">
+			<h2>Gallery</h2>
+		</div>
+		<div class="full">
+			<div id="galleryMenu">
+				<ul id="videoCategories">
+					<li id="catAll"><a href="/video/gallery/?cat=1&amp;sortby=2">全て</a></li>
+					<li id="catLiveAction"><span class="current">実写</span></li>
+					<li id="catAnimation"><a href="/video/gallery/?cat=3&amp;sortby=2">CG/アニメ</a></li>
+				</ul>
+				<ul id="sortingCategories">
+					<li id="sortRandom"><a href="/video/gallery/?cat=2&amp;sortby=1">ランダム</a></li>
+					<li id="sortPopular"><span class="current">人気</span></li>
+					<li id="sortNew"><a href="/video/gallery/?cat=2&amp;sortby=3">新着</a></li>
+					<li id="sortRegion"><a href="/video/gallery/?cat=2&amp;sortby=4">出身地</a></li>
+				</ul>
+			</div>
+			<div id="videos">
+				<!--mclude-->
+					<div class="videoPreview">
+		<!-- aid: 104 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 104 -->
+		<a href="/video/gallery/k96o/"><img src="/video/images/thumbs/thumb-120.jpg" alt="Guardian Fox" /></a>
+		<h4><a href="/video/gallery/k96o/">Guardian Fox</a></h4>
+		<p>制作：Katsumi Nakane（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 62 -->
+		<!-- pid: 15 -->
+		<!-- Votes: 88 -->
+		<a href="/video/gallery/u6wq/"><img src="/video/images/thumbs/thumb-75.jpg" alt="Firefox, Now" /></a>
+		<h4><a href="/video/gallery/u6wq/">Firefox, Now</a></h4>
+		<p>制作：Kuef（神奈川県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 43 -->
+		<!-- pid: 2 -->
+		<!-- Votes: 74 -->
+		<a href="/video/gallery/mx9v/"><img src="/video/images/thumbs/thumb-56.jpg" alt="まるでfirefoxみたいだ！" /></a>
+		<h4><a href="/video/gallery/mx9v/">まるでfirefoxみたいだ！</a></h4>
+		<p>制作：Ｊ＠ｒёｄ（北海道）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 97 -->
+		<!-- pid: 41 -->
+		<!-- Votes: 66 -->
+		<a href="/video/gallery/d9p5/"><img src="/video/images/thumbs/thumb-112.jpg" alt="INARI -稲荷-" /></a>
+		<h4><a href="/video/gallery/d9p5/">INARI -稲荷-</a></h4>
+		<p>制作：Ｏ２残党兵（福岡県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 114 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 55 -->
+		<a href="/video/gallery/q9j0/"><img src="/video/images/thumbs/thumb-130.jpg" alt="GET　Firefox　新しい世界編" /></a>
+		<h4><a href="/video/gallery/q9j0/">GET　Firefox　新しい世界編</a></h4>
+		<p>制作：空一（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 103 -->
+		<!-- pid: 34 -->
+		<!-- Votes: 37 -->
+		<a href="/video/gallery/ohh4/"><img src="/video/images/thumbs/thumb-118.jpg" alt="free" /></a>
+		<h4><a href="/video/gallery/ohh4/">free</a></h4>
+		<p>制作：eisin（岡山県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 61 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 36 -->
+		<a href="/video/gallery/07ac/"><img src="/video/images/thumbs/thumb-74.jpg" alt="暗号？" /></a>
+		<h4><a href="/video/gallery/07ac/">暗号？</a></h4>
+		<p>制作：ふな（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 145 -->
+		<!-- pid: 9 -->
+		<!-- Votes: 27 -->
+		<a href="/video/gallery/mxi8/"><img src="/video/images/thumbs/thumb-161.jpg" alt="get firefox" /></a>
+		<h4><a href="/video/gallery/mxi8/">get firefox</a></h4>
+		<p>制作：ジョン（茨城県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 127 -->
+		<!-- pid: 28 -->
+		<!-- Votes: 24 -->
+		<a href="/video/gallery/qb3n/"><img src="/video/images/thumbs/thumb-143.jpg" alt="ネイキッドスタイル" /></a>
+		<h4><a href="/video/gallery/qb3n/">ネイキッドスタイル</a></h4>
+		<p>制作：マッサー＆タッカー（大阪府）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 86 -->
+		<!-- pid: 30 -->
+		<!-- Votes: 20 -->
+		<a href="/video/gallery/4b2e/"><img src="/video/images/thumbs/thumb-101.jpg" alt="Firefox欲しい！" /></a>
+		<h4><a href="/video/gallery/4b2e/">Firefox欲しい！</a></h4>
+		<p>制作：mashifox（奈良県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 125 -->
+		<!-- pid: 1 -->
+		<!-- Votes: 16 -->
+		<a href="/video/gallery/m9as/"><img src="/video/images/thumbs/thumb-141.jpg" alt="人類フォックス化計画" /></a>
+		<h4><a href="/video/gallery/m9as/">人類フォックス化計画</a></h4>
+		<p>制作：MNJ</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 132 -->
+		<!-- pid: 28 -->
+		<!-- Votes: 16 -->
+		<a href="/video/gallery/xmml/"><img src="/video/images/thumbs/thumb-148.jpg" alt="in lights" /></a>
+		<h4><a href="/video/gallery/xmml/">in lights</a></h4>
+		<p>制作：エビちゃん（大阪府）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 115 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 12 -->
+		<a href="/video/gallery/bmu8/"><img src="/video/images/thumbs/thumb-131.jpg" alt="あなただけ" /></a>
+		<h4><a href="/video/gallery/bmu8/">あなただけ</a></h4>
+		<p>制作：GHQ（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 35 -->
+		<!-- pid: 24 -->
+		<!-- Votes: 12 -->
+		<a href="/video/gallery/quc1/"><img src="/video/images/thumbs/thumb-51.jpg" alt="firefox eye" /></a>
+		<h4><a href="/video/gallery/quc1/">firefox eye</a></h4>
+		<p>制作：fukutakanzi（愛知県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 70 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 11 -->
+		<a href="/video/gallery/y61d/"><img src="/video/images/thumbs/thumb-85.jpg" alt="キャッチコピー" /></a>
+		<h4><a href="/video/gallery/y61d/">キャッチコピー</a></h4>
+		<p>制作：ふな（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 34 -->
+		<!-- pid: 41 -->
+		<!-- Votes: 9 -->
+		<a href="/video/gallery/awej/"><img src="/video/images/thumbs/thumb-50.jpg" alt="火遊び" /></a>
+		<h4><a href="/video/gallery/awej/">火遊び</a></h4>
+		<p>制作：きんちゃん（福岡県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 78 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 8 -->
+		<a href="/video/gallery/zl4c/"><img src="/video/images/thumbs/thumb-93.jpg" alt="LIFE IS CIRCUS" /></a>
+		<h4><a href="/video/gallery/zl4c/">LIFE IS CIRCUS</a></h4>
+		<p>制作：xanoid（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 82 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 8 -->
+		<a href="/video/gallery/5c66/"><img src="/video/images/thumbs/thumb-97.jpg" alt="タブって･･･？" /></a>
+		<h4><a href="/video/gallery/5c66/">タブって･･･？</a></h4>
+		<p>制作：タクミ（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 120 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 8 -->
+		<a href="/video/gallery/bz6v/"><img src="/video/images/thumbs/thumb-136.jpg" alt="Firefox劇場第一話" /></a>
+		<h4><a href="/video/gallery/bz6v/">Firefox劇場第一話</a></h4>
+		<p>制作：コバヤシ（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 147 -->
+		<!-- pid: 23 -->
+		<!-- Votes: 7 -->
+		<a href="/video/gallery/rehs/"><img src="/video/images/thumbs/thumb-163.jpg" alt="Firefoxにかこまれて…" /></a>
+		<h4><a href="/video/gallery/rehs/">Firefoxにかこまれて…</a></h4>
+		<p>制作：bobby（静岡県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 36 -->
+		<!-- pid: 1 -->
+		<!-- Votes: 6 -->
+		<a href="/video/gallery/yz3w/"><img src="/video/images/thumbs/thumb-52.jpg" alt="Drinky" /></a>
+		<h4><a href="/video/gallery/yz3w/">Drinky</a></h4>
+		<p>制作：イアン</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 113 -->
+		<!-- pid: 12 -->
+		<!-- Votes: 5 -->
+		<a href="/video/gallery/hb1s/"><img src="/video/images/thumbs/thumb-129.jpg" alt="カメランニング" /></a>
+		<h4><a href="/video/gallery/hb1s/">カメランニング</a></h4>
+		<p>制作：Studio Bezombie（埼玉県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 90 -->
+		<!-- pid: 2 -->
+		<!-- Votes: 5 -->
+		<a href="/video/gallery/7ptg/"><img src="/video/images/thumbs/thumb-105.jpg" alt="fire" /></a>
+		<h4><a href="/video/gallery/7ptg/">fire</a></h4>
+		<p>制作：yukitam（北海道）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 75 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 4 -->
+		<a href="/video/gallery/qb6a/"><img src="/video/images/thumbs/thumb-90.jpg" alt="距離" /></a>
+		<h4><a href="/video/gallery/qb6a/">距離</a></h4>
+		<p>制作：n（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 107 -->
+		<!-- pid: 15 -->
+		<!-- Votes: 4 -->
+		<a href="/video/gallery/r5b3/"><img src="/video/images/thumbs/thumb-123.jpg" alt="fox兄貴" /></a>
+		<h4><a href="/video/gallery/r5b3/">fox兄貴</a></h4>
+		<p>制作：sabo（神奈川県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 26 -->
+		<!-- pid: 24 -->
+		<!-- Votes: 3 -->
+		<a href="/video/gallery/rjx9/"><img src="/video/images/thumbs/thumb-41.jpg" alt="usagi" /></a>
+		<h4><a href="/video/gallery/rjx9/">usagi</a></h4>
+		<p>制作：西オジョージ（愛知県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 83 -->
+		<!-- pid: 36 -->
+		<!-- Votes: 3 -->
+		<a href="/video/gallery/gnps/"><img src="/video/images/thumbs/thumb-98.jpg" alt="to play" /></a>
+		<h4><a href="/video/gallery/gnps/">to play</a></h4>
+		<p>制作：aki（山口県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 84 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 3 -->
+		<a href="/video/gallery/1p49/"><img src="/video/images/thumbs/thumb-99.jpg" alt="firecat" /></a>
+		<h4><a href="/video/gallery/1p49/">firecat</a></h4>
+		<p>制作：ジョントラボルオ（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 87 -->
+		<!-- pid: 14 -->
+		<!-- Votes: 3 -->
+		<a href="/video/gallery/qg3c/"><img src="/video/images/thumbs/thumb-102.jpg" alt="Symbol" /></a>
+		<h4><a href="/video/gallery/qg3c/">Symbol</a></h4>
+		<p>制作：D（東京都）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 123 -->
+		<!-- pid: 15 -->
+		<!-- Votes: 3 -->
+		<a href="/video/gallery/b4io/"><img src="/video/images/thumbs/thumb-139.jpg" alt="噂の男" /></a>
+		<h4><a href="/video/gallery/b4io/">噂の男</a></h4>
+		<p>制作：ぷぅぷぅ（神奈川県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 88 -->
+		<!-- pid: 28 -->
+		<!-- Votes: 2 -->
+		<a href="/video/gallery/w92e/"><img src="/video/images/thumbs/thumb-103.jpg" alt="Need more speed" /></a>
+		<h4><a href="/video/gallery/w92e/">Need more speed</a></h4>
+		<p>制作：スタジオエルク（大阪府）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 109 -->
+		<!-- pid: 15 -->
+		<!-- Votes: 2 -->
+		<a href="/video/gallery/q6nh/"><img src="/video/images/thumbs/thumb-125.jpg" alt="愛されブラウザでNo.1" /></a>
+		<h4><a href="/video/gallery/q6nh/">愛されブラウザでNo.1</a></h4>
+		<p>制作：sabo（神奈川県）</p>
+	</div>
+		<div class="videoPreview">
+		<!-- aid: 117 -->
+		<!-- pid: 1 -->
+		<!-- Votes: 1 -->
+		<a href="/video/gallery/2dmp/"><img src="/video/images/thumbs/thumb-133.jpg" alt="Fire Feeling" /></a>
+		<h4><a href="/video/gallery/2dmp/">Fire Feeling</a></h4>
+		<p>制作：kakeru</p>
+	</div>
+			
+				<!--/mclude-->
+			</div>	
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div id="footerInfo">				
+			<p>&copy; 2004-2007 Mozilla Japan and Mozilla Corporation. All rights reserved.</p>
+			<ul id="footer-nav">
+				<li><a href="http://getfirefox.jp/video/rules/">アワード規約</a> | </li>
+				<li><a href="http://www.mozilla-japan.org/jp/privacy.html">個人情報保護方針</a> | </li>
+				<li><a href="http://www.mozilla-japan.org/products/firefox/">Firefox</a> | </li>
+				<li><a href="http://www.mozilla-japan.org/">Mozilla Japan</a></li>
+			</ul>
+		</div>
+		<div id="byAQ">
+			<a href="http://www.aqworks.com">web design by AQ</a>
+		</div>	
+	</div>
+</div>	
+
+<script src="/video/wp-content/themes/videoawards/js/__utm.js" type="text/javascript"></script>
+
+</body>
+
+</html>	
+
+<!-- Dynamic Page Served (once) in 1.111 seconds -->

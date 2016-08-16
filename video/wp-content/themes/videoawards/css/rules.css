@@ -1,0 +1,27 @@
+
+/* 
+Layout and Positioning 
+================================================================================================= */
+#header { width:681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat;}
+
+h2 { width:666px; height:134px; background: transparent url(../img/h2_rules.gif) 7px 90px no-repeat;}
+
+
+
+h4 { clear:both;}
+
+.top { float:left; display:inline; height:16px; width:600px; text-align: right; border-top: 1px solid #f2f2f2; padding-top:4px; margin-bottom:32px !important; }
+	
+.top a { font-weight: bold; text-decoration:none; color:#2c2d2e; float:right; display:inline; width:43px; height:16px; padding-left:15px; background: transparent url(../img/bg_top.gif) top left no-repeat;}
+
+.full { margin-bottom: 0px; }
+
+#bottom-border { float: left; width: 681px; background: transparent url(../img/bg_full_bottom_long.gif) bottom left no-repeat; }
+	
+	#bottom-border .top { margin-top: 0px; }
+
+#content ul { margin: 1em 20px 1em 50px; list-style-type: lower-latin; }
+
+/* 
+Typography 
+================================================================================================= */

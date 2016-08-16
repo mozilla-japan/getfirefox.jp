@@ -1,0 +1,24 @@
+/* 
+Layout and Positioning 
+================================================================================================= */
+#header { width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+	h2 { width: 666px; height: 134px; background: transparent url(../img/h2_contact.gif) 7px 90px no-repeat; }
+
+#errorBox { width: 645px; margin: 10px 0px 15px 10px; padding: 5px; border: 1px solid #ff0000; background-color: #fddfdf; }
+	#errorBox h3 { margin: 0; padding: 0; }
+
+.errorField { background-color: #fddfdf; }
+
+#contact-intro {width:681px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_full_top.gif) top left no-repeat;}
+
+#contact-intro p { background: #fffadd; padding:4px !important; margin-top:16px; margin-right:20px;}
+
+#contactForm {width:681px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 0px 0px 48px 0px !important; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+
+#contactContent-thx {width:681px; float:left; display:inline; height:200px; margin:0px 0px 0px 0px !important; padding: 16px 0px 0px 0px !important; background: transparent url(../img/bg_full_all.gif) top left no-repeat;}
+
+#contactContent-thx p {height:180px; }
+
+/* 
+Typography 
+================================================================================================= */			

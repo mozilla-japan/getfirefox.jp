@@ -1,0 +1,54 @@
+/* --- Base feature styles ------------------------------------------------------- */
+
+#main-feature h2 { margin: 20px 0 0 0; }
+#main-feature .feature-contents {
+	margin: 16px 0px 16px 25px;
+	padding: 0;
+	background: none; /* over-ride Rustico styles */
+	height: auto;     /* over-ride Rustico styles */
+	min-height: 140px;     /* over-ride Rustico styles */
+}
+
+* html #main-feature .feature-contents { height: 150px; }
+
+
+#main-feature a.download-firefox {
+	background: url("../img/firefox/download-box.png") 0 100% no-repeat;
+	width: 332px;
+}
+
+#main-feature a.download-firefox span {
+	background: url("../img/firefox/download-box.png") 0 0 no-repeat;
+	padding: 35px 14px 4px 100px;
+	margin-bottom: 4px;
+	width: 218px;
+	min-height: 48px;
+}
+* html #main-feature a.download-firefox span { height: 48px; }
+
+#main-feature a.download-thunderbird {
+	background: url("../img/thunderbird/download-box.png") 0 100% no-repeat;
+	width: 332px;
+}
+
+#main-feature a.download-thunderbird span {
+	background: url("../img/thunderbird/download-box.png") 0 0 no-repeat;
+	padding: 35px 14px 4px 100px;
+	margin-bottom: 4px;
+	width: 218px;
+	min-height: 48px;
+}
+* html #main-feature a.download-thunderbird span { height: 48px; }
+#main-feature .download-other {
+	margin-left: 38px;
+}
+
+
+
+.page-title {
+	font-weight: bold;
+	font-size: 180%;
+	color: #bd1d01;
+	border: none;
+}
+

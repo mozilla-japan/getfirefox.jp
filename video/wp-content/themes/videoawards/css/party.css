@@ -1,0 +1,66 @@
+
+/*	
+Layout and Positioning
+------------------------------------------------------------------------------------- */
+
+#header { width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+	h2 { width: 666px; height: 134px; background: transparent url(../img/h2_party.gif) 7px 90px no-repeat; }
+
+#partyInfo { display: inline; float: left; width: 677px; height: 150px; margin: 1px 0px 10px 5px; padding: 0; background: transparent url(../img/home_after_party.jpg) top left no-repeat; }
+#partyInfo p a { font-weight: bold; font-size: 1.4em; color: #ffffff; }
+	p#newsArticle { display: inline; float: left; width: 500px; margin: 75px 0px 0px 155px; }
+	p#viewGallery { display: inline; float: left; width: 500px; margin: 0px 0px 0px 155px; }
+
+#party-intro { display:inline; float: left; width: 677px; margin: 0px 0px 32px 0px !important; padding: 0px 0px 0px 4px !important; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+#party-intro p { display: block; width: 671px; height: 140px; margin:0px 0 0px 1px !important; overflow: hidden !important; background: transparent url(../img/party_intro.jpg) 0px 2px no-repeat; }
+#party-intro img { margin-left: 15px; }
+ 
+#prize-intro {width:677px; float:left; display:inline; margin:0px 0px 16px 0px !important; padding: 0px 0px 0px 4px !important; }
+#prize-intro h3 { text-indent:-4000px; overflow:hidden; background: transparent url(../img/h3_prizes.gif) top left no-repeat; margin-bottom:8px;}
+#prize-intro p { font-weight: bold; color:#666; margin-bottom:16px;}
+#prize-intro img {margin-left: 0px;}
+
+.prize { width:677px; float:left; display:inline; clear:both; margin-left:0px;}
+	.prize img {float:left; display:inline; width:323px; margin-bottom:16px; margin-left:0px;}
+
+#prizes { width: 677px; float: left; display: inline; padding-left: 15px; padding-bottom: 24px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+	.prize-desc { display: inline; float: left; width: 152px; margin-right: 16px; margin-bottom:16px; }
+	.prize-desc h4 { margin-top: 0 !important; margin-left: 0px !important; }	
+	.prize-desc h5 { padding-top: 8px; border-top: 1px solid #ccc; }
+	.prize-desc ul { height: 100px; margin: 0 !important; text-align: left; }
+	.prize-desc li { list-style: none; line-height: 1.2; margin-bottom: 6px; margin-right: 0px; }
+	.prize-desc p { margin: 0 !important; }
+	#prize-popular { width: 677px; padding-bottom: 16px; margin-right:0 !important;background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+
+#judge-intro{ width:677px; float:left; display:inline; margin:0px 0px 16px 0px !important; padding: 16px 0px 0px 4px !important; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+#judge-intro h3 { text-indent:-4000px; overflow:hidden; background: transparent url(../img/h3_judges.gif) top left no-repeat; margin-bottom:8px;}
+#judge-intro p { font-weight: bold; color:#666; margin-bottom:0px !important;}
+
+
+.judge-faces { width:657px; float: left; display: inline; margin-left:4px; padding-left: 16px !important; margin-bottom:16px; background: transparent url(../img/bg_judge_face.gif) top left repeat-x; float:left; display:inline; }
+.judge-faces div { width:100px; margin-right:9px; float:left; display:inline;}
+.judge-faces h4 {margin:8px 0 8px 0 !important;}
+.judge-faces p {margin:0 0 0 0 !important ;}
+
+.judge-profiles {width:677px; padding-bottom:32px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+
+#sponsor-intro {width:677px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 16px 0px 0px 4px !important; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+#sponsor-intro h3 { text-indent:-4000px; overflow:hidden; background: transparent url(../img/h3_sponsors.gif) top left no-repeat;}
+
+.sponsors { margin-bottom: 32px; }
+	.sponsor { display: inline; float: left; width: 666px; padding-left: 20px; }
+	.sponsor img { display: inline; float: left; width: 145px; margin-bottom: 16px; }
+	.sponsor h4 { margin-top: 0 !important; }
+	.sponsor div { display: inline; float: left; width: 511px; margin-bottom: 16px;	}
+	
+	#coop { width:677px; padding-bottom:32px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat; clear:both;}
+		#coop h4 { margin-left:183px !important;}
+		#coop li { margin-left:162px;list-style: none;}
+
+/*	 
+Typography
+------------------------------------------------------------------------------------- */	
+
+#party-intro p { text-indent: -5000px; line-height: 140px; }	
+
+.prize-desc h5 { font-size: 1.3em; }

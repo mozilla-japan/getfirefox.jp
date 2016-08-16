@@ -1,0 +1,19 @@
+/*
+Layout
+------------------------------------------------------------------------------------------------------ */
+
+#authorFields { margin: 0px 0px 10px 0px; padding: 10px; border: 2px solid #ccc; }
+#authorFields h3 { border-bottom: 1px solid #ccc; }
+#authorFields h4 { margin-bottom: 0px; }
+	#userDetails1 { display: inline; float: left; width: 200px; }
+	#userDetails2 { display: inline; float: left; width: 380px; }
+	#userDetails3 { display: inline; float: left; width: 200px; }
+	#saveButtons { display: inline; float: right; width: 300px; margin: 15px 0px 0px 500px; }
+
+.clearBoth { clear: both; }
+
+/*
+Typography
+------------------------------------------------------------------------------------------------------ */
+
+#authorFields label { font-weight: bold; }

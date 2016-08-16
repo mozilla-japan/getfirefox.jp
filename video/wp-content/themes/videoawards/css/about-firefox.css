@@ -1,0 +1,97 @@
+
+
+#header { width:681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat;}
+
+h2 { width:666px; height:134px; background: transparent url(../img/h2_about_ff.gif) 7px 90px no-repeat;}
+
+#about-ff-intro h3 {height:14px;	margin:16px 20px 8px 20px;}
+
+.two-column { width:681px; float:left; display:inline; background: transparent url(../img/bg_two_column_bottom.gif) bottom left no-repeat; }
+
+
+.intro-narrow { width:407px;}
+
+#extensions-intro {width:436px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 16px 0px 0px 0px !important; background: transparent url(../img/bg_left_top.gif) top left no-repeat;}
+
+#extensions-intro h3 {text-indent:-4000px; overflow:hidden; background: transparent url(../img/h3_extensions.gif) 4px 0px no-repeat;	}
+
+#recommended-extensions { width:436px; float:left; display:inline; padding-bottom:16px;}
+
+#recommended-extensions dt {clear:both; padding-top:8px; border-top: 1px solid #f2f2f2;  }
+
+.right img {float:right; display:inline; margin-left:8px; margin-bottom:8px;}
+
+.left img {float:right; display:inline; margin-left:8px; margin-bottom:8px; }
+
+#ie-bad { width:245px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_right_top.gif) top left no-repeat;}
+
+#getfirefoxjp { width:677px; margin: 0 0 0 0 !important; padding: 0px 0px 24px 0px !important; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+	#getfirefoxjp a { margin-left:16px; width:649px; height:57px; display:block; text-indent: -4000px; overflow: hidden; background: transparent url(../img/ff_getfirefoxjp.gif) 0px 0px no-repeat;}
+
+	#about-ff-creative {width:245px; padding-bottom:16px; background: transparent url(../img/bg_right_bottom.gif) bottom left no-repeat;}
+
+/* Firefox CSS code for download button */
+#main-feature a.download-link {
+		display: block;
+		padding: 0 0 12px 0;
+		margin-bottom: 0.2em;
+		text-decoration: none;
+		color: #256504;
+		width: 285px;
+		/* margin-left: -8px; */
+	}
+	
+	#main-feature a.download-firefox {
+		background: url("../img/template/download-firefox.png") 0 100% no-repeat;
+	}
+	
+	#main-feature a.download-thunderbird {
+		background: url("../img/template/download-thunderbird.png") 0 100% no-repeat;
+	}
+
+	#main-feature .brief-feature a.download-firefox {
+		background: url("../img/template/download-firefox-white.png") 0 100% no-repeat;
+		margin-right: 40px;
+		margin-left: 0;
+	}
+	
+	#main-feature a.download-link span {
+		display: block;
+		padding: 9px 10px 0 58px;
+		min-height: 43px;
+	} * html #main-feature a.download-link span { height: 43px; }
+	
+	#main-feature a.download-firefox span { background: url("../img/template/download-firefox.png") 0 0 no-repeat; }	
+	#main-feature a.download-thunderbird span { background: url("../img/template/download-thunderbird.png") 0 0 no-repeat; }
+	#main-feature .brief-feature a.download-firefox span { background: url("../img/template/download-firefox-white.png") 0 0 no-repeat; }	
+	#main-feature a.download-link strong { font-size: 2.0em; letter-spacing: -0.02em; text-decoration: underline; color: #256504; }
+	#main-feature a.download-link em { display: block; padding-top: 3px; font-size: 1.4em; font-style: normal; color: #367D10; letter-spacing: 0; }
+	#main-feature a.download-link:hover, #main-feature a.download-link:hover span, #main-feature a.download-link:hover strong {
+		color: #143802;
+		cursor: pointer; /* need for IE6 */
+		background-position: 100% 100%;
+	}
+	
+	#main-feature a.download-link:hover span {
+		background-position: 100% 0;
+	}
+	
+	#main-feature .download-info {
+		font-size: 85%;
+		color: #666;
+		padding: 0;
+	}
+	
+	#main-feature .download-other { font-size: 1.1em; color: #515F78; padding-left: 8px; }
+
+	.brief-feature .home-download {
+		float: right;
+	}
+	
+#main-feature { width:677px; float: left; display: inline; margin:0 0 0 4px !important; background: transparent url(../img/bg_ff_flame.jpg) top left no-repeat !important;}
+
+	/* TYPOGRAPHY */
+	
+#main-feature h3 { font-size:1.4em; color:#bd1d01;}
+
+.intro-narrow { font-size:1.2em !important; margin:0px 20px 0px 16px !important;}	

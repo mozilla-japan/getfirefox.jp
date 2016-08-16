@@ -1,0 +1,157 @@
+/* 
+Layout and Positioning 
+-------------------------------------------------------------------------------------------- */
+
+#header { display: inline; float: left; width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+	h2 { width: 681px; height: 134px; background: transparent url(../img/h2_gallery.gif) 7px 90px no-repeat; }
+
+/* Gallery */
+#galleryMenu { display: inline; float: left; margin: 0px 0px 20px 0px; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+#galleryMenu a { outline: none; }
+	ul#videoCategories { display: inline; float: left; width: 669px; margin: 3px 0px 0px 6px; background: transparent url(../img/bg_categorybar.gif) top left repeat-x; }
+	ul#videoCategories li { display: inline; float: left; width: 117px; height: 44px; background-image: url(../img/button_gallery_categories.gif); background-repeat: no-repeat; }
+	ul#videoCategories li a,
+	ul#videoCategories li span { display: block; width: 117px; height: 44px; background-image: url(../img/button_gallery_categories.gif); background-repeat: no-repeat; }
+	ul#videoCategories li#catAll, 
+	ul#videoCategories li#catAll a { background-position: 0px 0px; }
+	ul#videoCategories li#catAll a:hover { background-position: -117px 0px; }
+	ul#videoCategories li#catAll span { background-position: -234px 0px; }
+	ul#videoCategories li#catLiveAction, 
+	ul#videoCategories li#catLiveAction a { background-position: 0px -44px; }
+	ul#videoCategories li#catLiveAction a:hover { background-position: -117px -44px; }
+	ul#videoCategories li#catLiveAction span { background-position: -234px -44px; }
+	ul#videoCategories li#catAnimation, 
+	ul#videoCategories li#catAnimation a { background-position: 0px -88px; }
+	ul#videoCategories li#catAnimation a:hover { background-position: -117px -88px; }
+	ul#videoCategories li#catAnimation span { background-position: -234px -88px; }
+
+	ul#sortingCategories { display: inline; float: left; width: 669px; margin: 0px 0px 0px 6px;  background: transparent url(../img/bg_sortingbar.gif) top left repeat-x; }
+	ul#sortingCategories li { display: inline; float: left; width: 89px; height: 20px; margin: 7px 4px 0px 0px; padding-bottom: 7px; }
+	ul#sortingCategories li#sortRandom { margin-left: 18px; }
+	ul#sortingCategories li a, 
+	ul#sortingCategories li span { display: block; width: 89px; height: 20px; background-image: url(../img/button_gallery_sorting.gif); background-repeat: no-repeat; }
+	ul#sortingCategories li#sortRandom, 
+	ul#sortingCategories li#sortRandom a { background-position: 0px 0px; }
+	ul#sortingCategories li#sortRandom a:hover { background-position: -89px 0px; }
+	ul#sortingCategories li#sortRandom span { background-position: -178px 0px; }	
+	ul#sortingCategories li#sortPopular, 
+	ul#sortingCategories li#sortPopular a { background-position: 0px -20px; }
+	ul#sortingCategories li#sortPopular a:hover { background-position: -89px -20px; }
+	ul#sortingCategories li#sortPopular span { background-position: -178px -20px; }	
+	ul#sortingCategories li#sortNew, 
+	ul#sortingCategories li#sortNew a { background-position: 0px -40px; }
+	ul#sortingCategories li#sortNew a:hover { background-position: -89px -40px; }
+	ul#sortingCategories li#sortNew span { background-position: -178px -40px; }
+	ul#sortingCategories li#sortRegion, 
+	ul#sortingCategories li#sortRegion a { background-position: 0px -60px; }
+	ul#sortingCategories li#sortRegion a:hover { background-position: -89px -60px; }
+	ul#sortingCategories li#sortRegion span { background-position: -178px -60px; }	
+
+#eyeVioDown { display: inline; float: left; width: 647px; margin: 0px 0px 10px 6px; padding: 10px; background-color: #ffff99; font-size: 1.2em;  }
+#videoPlayer #eyeVioDown {}
+
+#videos { display: inline; float: left; width: 677px; padding: 0px 0px 20px 16px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat; }
+#videos h3.prefectureTitle { display: inline; float: left; width: 634px; height: 16px; margin: 0px 0px 16px 0px; padding: 3px 0px 3px 3px; background-color: #e6e6e6; }
+#videos	.videoPreview { display: inline; float: left; width: 190px; height: 230px; margin: 0px 31px 0px 0px; }
+#videos	.videoPreview h4 { margin: 4px 0px 0px 0px; }
+#videos	.videoPreview p { margin: 0px 0px 0px 0px; }
+	
+/* individual video pages */
+
+.full { margin-bottom: 0px; overflow: hidden; }
+.two-column { margin-top: 4px; }
+
+#videoPlayer { margin: 0; padding-top: 15px; overflow: hidden; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+	#video { margin: 0px 0px 20px 15px; } 
+
+#videoInteract { display: inline; float: left; width: 681px; height: 120px; overflow: hidden; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat; }
+#videoInteract h3 { display: inline; float: left; width: 650px; margin: 0px 0px 10px 20px; }
+	#videoVote { display: inline; float: left; width: 60px; height: 50px; margin: 0px 0px 0px 20px; border: 1px solid #e4e4e4; }
+		p#videoTally { display: inline; float: left; width: 60px; margin: 6px 3px 0px 0px; }
+		p#voteButton { display: inline; float: left; margin: 7px 0px 0px 0px; }
+		p#voteButton a { display: block; width: 131px; height: 36px; outline: none; background-repeat: no-repeat; background-image: url(/video/wp-content/themes/videoawards/img/button_gallery_vote.gif); }
+		p#voteButton a:hover { background-position: -131px 0px; } 
+		p#voteButton span { display: block; width: 131px; height: 36px; background: transparent url(/video/wp-content/themes/videoawards/img/button_gallery_vote.gif) -262px 0px no-repeat; }
+	#videoShare { display: inline; float: left; width: 200px; height: 60px; margin: 0px 0px 0px 25px; }
+		#videoShare ul { margin: 0; list-style-type: none; }
+		#videoShare li { margin: 0px 0px 8px 0px; padding-left: 35px; background-repeat: no-repeat; }
+		#mailFriend { height: 20px; background-image: url(/video/wp-content/themes/videoawards/img/button_gallery_email.gif); }
+		#blogBadge { height: 25px; background-image: url(/video/wp-content/themes/videoawards/img/button_gallery_blogparts.gif); }
+	#videoLink { display: inline; float: left; width: 225px; height: 50px; margin: 0px 0px 0px 25px; }
+	#videoLink input { width: 270px; }
+	#videoLink h4 { margin: 0px 0px 0px 0px; }
+	
+.two-column { float: left; display: inline; width: 681px; padding-bottom: 16px; background: transparent url(../img/bg_two_column_bottom.gif) bottom left no-repeat; }
+
+#videoComments { min-height: 400px; }
+#videoComments ul { display: inline; float: left; width: 400px; margin: 5px 0px 0px 14px; border-top: 1px solid #e4e4e4; list-style-type: none; }
+#videoComments li { width: 400px; margin: 4px 0px; padding-bottom: 4px; border-bottom: 1px solid #e4e4e4; }
+#videoComments li span { margin: 0px 8px 0px 0px; }
+	#commentHeader { display: inline; float: left; width: 436px; background: transparent url(../img/bg_left_top.gif) top left no-repeat; }
+	#commentHeader h4 { display: inline; float: left; width: 140px; margin: 12px 0px 10px 14px; }
+	#commentHeader p#commentHelp { display: inline; float: right; width: 200px; margin: 8px 2px 10px 0px; }
+		#commentFormDiv { display: inline; float: right; width: 255px; margin: 12px 16px 0px 0px; }
+		div.loading { background: transparent url(../img/loading_small.gif) top left no-repeat; }
+		#commentFormDiv p { display: inline; float: right; margin: 0; }
+
+#videoDetails { margin: 0px 0px 10px 0px; }
+#videoDetails p,
+#videoDetails h4,
+#videoDetails h5 { margin: 10px 8px 0px 10px; }
+	#authorDetails { display: inline; float: left; width: 245px; margin: 0px 0px 12px 0px; background: transparent url(../img/bg_right_top.gif) top left no-repeat; }
+		#nameAndDetails { display: inline; float: left; width: 230px; margin: 0px 0px 0px 10px; }
+		#nameAndDetails p,
+		#nameAndDetails h5 { display: inline; float: left; margin-left: 0px; }
+		#nameAndDetails h5#websiteTitle { width: 210px; }
+		#nameAndDetails p#websiteURL { margin-top: 0px; }
+		#nameAndDetails p { margin-top: 8px; }
+			#avatar { display: inline; float: left; width: 65px; margin: 8px 5px 0px 0px; }
+			#avatar img { border: 1px solid #e4e4e4; }
+			#nameAndLocation { display: inline; float: left; width: 150px; margin: 8px 0px 0px 0px; }
+			#nameAndLocation h5 { width: 140px; margin: 0px 0px 0px 0px; }
+			#nameAndLocation p { margin: 0px 0px 0px 0px; }
+	#moreVideoDetails { display: inline; float: left; margin: 0px 0px 100px 0px; }	
+
+/* email to friend */
+#errorBox { width: 300px; margin: 10px auto 10px auto; padding: 5px; border: 1px solid #ff0000; background-color: #fddfdf; }
+#errorBox h3 { margin: 0; padding: 0; }
+.errorField { background-color: #fddfdf; }
+
+#emailFriendForm { width: 200px; margin: 0px auto; }
+#emailFriendForm h3 { margin: 15px 0px 6px 0px; }
+#emailFriendForm h4 { margin: 0px 0px 6px 0px; }
+
+#captcha { margin: 8px 0px 8px 0px; }
+
+/* 
+Typography 
+-------------------------------------------------------------------------------------------- */
+
+/* gallery */
+#galleryMenu li a,
+#galleryMenu li span { text-indent: -5000px; }
+
+#videos h3.prefectureTitle { font-size: 1.4em; }
+
+/* individual video pages */
+p#videoTally { font-size: 1.5em; line-height: 1.2em; text-align: center; }
+
+#voteButton a,
+#voteButton span { text-indent: -5000px; }
+
+#videoShare li { font-size: 1.4em; font-weight: bold; }
+#videoShare li a { text-decoration: none; }
+#videoLink h5 { font-size: 1.2em; }
+#videoInteract h3 { font-size: 2.0em; }
+
+#nameAndDetails h5 { font-size: 1.2em; }
+#nameAndLocation h5 { font-size: 1.4em; }
+
+#videoComments li span { font-weight: bold; }
+#commentHeader p#commentHelp { text-align: right; }
+.commentCount { color: #b4b4b4; }
+
+/* email to friend */
+#emailFriendForm { text-align: left; }
+
+

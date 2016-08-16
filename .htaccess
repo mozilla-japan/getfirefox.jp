@@ -1,0 +1,17 @@
+Options FollowSymLinks MultiViews -Indexes
+
+RewriteEngine on
+RewriteRule ^$            http://mozilla.jp/firefox/ [R=permanent]
+
+# Readme.txt in the Firefox installation directory
+RewriteRule ^releases     http://mozilla.jp/firefox/ [R=permanent]
+
+# SFx 2006 Summer Promotion
+RewriteRule ^promo        http://mozilla.jp/firefox/ [R=seeother]
+
+# 2008 beach
+RewriteRule ^beach        http://mozilla.jp/firefox/ [R=seeother]
+
+# Get Firefox Banners (2008-02)
+RewriteRule ^b/(.*)       /banners/$1
+RewriteRule ^banners/?$   http://mozilla.jp/firefox/ [R=seeother]

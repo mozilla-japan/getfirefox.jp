@@ -1,0 +1,64 @@
+
+/* 
+Layout and Positioning 
+================================================================================================= */
+#header { width:681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat;}
+
+h2 { width:666px; height:134px; background: transparent url(../img/h2_faq.gif) 7px 90px no-repeat;}
+
+
+
+h4 { clear:both;}
+
+#subnav { width:645px; float:left; display:inline; margin:0px 0px 32px 0px !important; padding: 16px 16px 0px 20px !important; background: #fff url(../img/bg_full_top.gif) top left no-repeat;}
+#subnav li {float:left; display:inline; margin: 0 0 0 0;}
+
+#subnav li, 
+#subnav li a:link, 
+#subnav li a:visited, 
+#subnav li a:hover, 
+#subnav li a:active, 
+#subnav span { height:24px;  background-image: url(../img/faq_subnav.gif); background-color:#e7f5ff; background-repeat:no-repeat;}
+
+#subnav li a:link, 
+#subnav li a:visited, 
+#subnav li a:hover, 
+#subnav li a:active { display:block; text-indent:-4000px; overflow: hidden;}
+
+#subnav #award, #subnav #award a { width:144px; background-position: 0px 0px;}
+
+#subnav #award a:hover,
+#subnav #award a:active {background-position: 0px -24px;}
+			
+
+#subnav #participate, 
+#subnav #participate a { width:88px; background-position: -144px 0px;}
+	#subnav #participate a:hover,
+	#subnav #participate a:active {background-position: -144px -24px;}
+
+#subnav #judging, 
+#subnav #judging a { width:118px; background-position: -232px 0px;}
+	#subnav #judging a:hover,
+	#subnav #judging a:active {background-position: -232px -24px;}
+
+#subnav #tech,
+#subnav #tech a { width:119px; background-position: -350px 0px;}
+	#subnav #tech a:hover,
+	#subnav #tech a:active {background-position: -350px -24px;}
+
+/*.top { float:left; display:inline; height:16px; width:600px; text-align: right; border-top: 1px solid #f2f2f2; padding-top:4px; margin-bottom:32px !important; background: transparent url(../img/bg_full_bottom_long.gif) bottom left no-repeat;}*/
+
+.top { float:left; display:inline; height:16px; width:640px; text-align: right; border-top: 1px solid #f2f2f2; padding-top:4px; margin-bottom:32px !important; }
+	
+.top a { font-weight: bold; text-decoration:none; color:#2c2d2e; float:right; display:inline; width:43px; height:16px; padding-left:15px; background: transparent url(../img/bg_top.gif) top left no-repeat;}
+
+.full { margin-bottom: 0px; }
+
+#bottom-border { float: left; width: 681px; padding-bottom: 0px; background: transparent url(../img/bg_full_bottom_long.gif) bottom left no-repeat; }
+	
+	#bottom-border .top { margin-top: 0px; }
+
+
+/* 
+Typography 
+================================================================================================= */

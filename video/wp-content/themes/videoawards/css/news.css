@@ -1,0 +1,46 @@
+/* 
+Layout and Positioning 
+================================================================================================= */
+
+.two-column { width:681px; float:left; display:inline; background: transparent url(../img/bg_two_column_top.gif) top left no-repeat; }
+
+#header { width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+h2 { width: 666px; height: 134px; background: transparent url(../img/h2_news.gif) 7px 90px no-repeat;}
+	
+.entry { clear: both; width: 430px; }
+
+#newsPosts h4 { line-height: 150% !important; margin-bottom: 0 !important; }
+#newsPosts h5 { margin: 1em 20px; padding: .2em; border-bottom: 1px solid #d9d9d9; font-size: 1.2em; }
+
+.post {width:436px; float:left; display:inline; margin:0px 0px 0px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_left_top.gif) top left no-repeat;}
+
+/* Comments */
+ol.commentlist { list-style-type: none; }
+ol.commentlist li { font-size: 100% !important; }
+ol.commentlist p { margin: .5em 0 1em 0 !important; }
+#commentform p { overflow: auto; }
+#commentform label { display: block; float: left; width: 40%; }
+#commentform input { display: block; float: right; width: 50%; border-width: 1px; }
+#commentform textarea { width: 392px; border-width: 1px; }
+
+/* Sidebar */
+
+#rss-feed-intro {width:245px; float:left; display:inline; margin:0px 0px 32px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_right_top.gif) top left no-repeat;}
+	#thunderbird { width:245px; padding-bottom:16px; background: transparent url(../img/bg_right_bottom.gif) bottom left no-repeat;}
+
+.rssFeedLink { padding-left: 20px; background: transparent url(/video/wp-content/themes/videoawards/img/news_feed.png) no-repeat scroll left center;　}
+.feedReader { margin: 0 20px; padding: 10px 0 10px 42px; }
+.feedReader h5 { position: relative; font-size: 1.2em !important; line-height: 1.5em !important; }
+.feedReader h5 img { position: absolute; top: 0; left: -42px; width: 32px; }
+.feedReader p { margin: 0 !important; }
+.feedReader a.more { padding-right: 10px; background: transparent url(/video/wp-content/themes/videoawards/img/news_side_arrow.png) no-repeat scroll center right; font-size: 10px; }
+
+.top { width:436px; float:left; display:inline; height:28px; text-align: right; border-top: 1px solid #f2f2f2; padding:4px 0px 0px 0px !important; margin-bottom: 0px 0px 0px 0px !important; background: transparent url(../img/bg_left_bottom.gif) bottom left no-repeat;}
+
+.top a { font-size:1.2em; font-weight: bold; text-decoration:none; color:#2c2d2e; width:420px; float:left; display:inline; height:28px; padding-left:0px; background: transparent url(../img/bg_top.gif) 365px 0 no-repeat;}
+
+  
+
+/* 
+Typography 
+================================================================================================= */

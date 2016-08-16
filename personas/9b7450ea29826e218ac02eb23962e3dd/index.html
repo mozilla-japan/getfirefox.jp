@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>知床財団 Personas</title>
+    <script type="text/javascript">
+      var themes = [
+        {
+          id: "shiretoko-foundation-01",
+          name: "Shiretoko Nature Foundation 01",
+          headerURL: "1h.jpg",
+          footerURL: "1f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#1e3851"
+        },
+        {
+          id: "shiretoko-foundation-02",
+          name: "Shiretoko Nature Foundation 02",
+          headerURL: "2h.jpg",
+          footerURL: "2f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#292d1e"
+        },
+        {
+          id: "shiretoko-foundation-03",
+          name: "Shiretoko Nature Foundation 03",
+          headerURL: "3h.jpg",
+          footerURL: "3f.jpg",
+          textcolor: "#09130b",
+          accentcolor: "#f5f3f6"
+        },
+        {
+          id: "shiretoko-foundation-04",
+          name: "Shiretoko Nature Foundation 04",
+          headerURL: "4h.jpg",
+          footerURL: "4f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#2b3b55"
+        },
+        {
+          id: "shiretoko-foundation-05",
+          name: "Shiretoko Nature Foundation 05",
+          headerURL: "5h.jpg",
+          footerURL: "5f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#69574d"
+        },
+        {
+          id: "shiretoko-foundation-06",
+          name: "Shiretoko Nature Foundation 06",
+          headerURL: "6h.jpg",
+          footerURL: "6f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#2f58b4"
+        },
+        {
+          id: "shiretoko-foundation-07",
+          name: "Shiretoko Nature Foundation 07",
+          headerURL: "7h.jpg",
+          footerURL: "7f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#6e9516"
+        },
+        {
+          id: "shiretoko-foundation-08",
+          name: "Shiretoko Nature Foundation 08",
+          headerURL: "8h.jpg",
+          footerURL: "8f.jpg",
+          textcolor: "#fff",
+          accentcolor: "#2271a6"
+        },
+        {
+          id: "shiretoko-foundation-09",
+          name: "Shiretoko Nature Foundation 09",
+          headerURL: "9h.jpg",
+          footerURL: "9f.jpg",
+          textcolor: "#2b2c27",
+          accentcolor: "#fefefe"
+        }
+      ];
+      
+      const INSTALL = "InstallBrowserTheme";
+      const PREVIEW = "PreviewBrowserTheme";
+      const RESET_PREVIEW = "ResetBrowserThemePreview";
+      
+      function setTheme(node, theme, action) {
+        node.setAttribute("data-browsertheme", JSON.stringify(themes[theme]));
+        var event = document.createEvent("Events");
+        event.initEvent(action, true, false);
+        node.dispatchEvent(event);
+        
+        return false;
+      }
+    </script>
+    <style type="text/css">
+      body { margin: 20px 0; padding: 0; color: #fff; background: #333; }
+      div { margin: 0 auto; width: 960px; overflow: hidden; }
+      p { margin: 0; }
+      img { margin: 0; border: 0; height: 80px; float: right; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p><a href="#" onclick="setTheme(this, 0, INSTALL);" onmouseover="setTheme(this, 0, PREVIEW);" onmouseout="setTheme(this, 0, RESET_PREVIEW);"><img src="1h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 1, INSTALL);" onmouseover="setTheme(this, 1, PREVIEW);" onmouseout="setTheme(this, 1, RESET_PREVIEW);"><img src="2h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 2, INSTALL);" onmouseover="setTheme(this, 2, PREVIEW);" onmouseout="setTheme(this, 2, RESET_PREVIEW);"><img src="3h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 3, INSTALL);" onmouseover="setTheme(this, 3, PREVIEW);" onmouseout="setTheme(this, 3, RESET_PREVIEW);"><img src="4h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 4, INSTALL);" onmouseover="setTheme(this, 4, PREVIEW);" onmouseout="setTheme(this, 4, RESET_PREVIEW);"><img src="5h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 5, INSTALL);" onmouseover="setTheme(this, 5, PREVIEW);" onmouseout="setTheme(this, 5, RESET_PREVIEW);"><img src="6h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 6, INSTALL);" onmouseover="setTheme(this, 6, PREVIEW);" onmouseout="setTheme(this, 6, RESET_PREVIEW);"><img src="7h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 7, INSTALL);" onmouseover="setTheme(this, 7, PREVIEW);" onmouseout="setTheme(this, 7, RESET_PREVIEW);"><img src="8h.jpg" alt="" /></a></p>
+      <p><a href="#" onclick="setTheme(this, 8, INSTALL);" onmouseover="setTheme(this, 8, PREVIEW);" onmouseout="setTheme(this, 8, RESET_PREVIEW);"><img src="9h.jpg" alt="" /></a></p>
+    </div>
+  </body>
+</html>

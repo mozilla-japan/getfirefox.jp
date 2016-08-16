@@ -1,0 +1,44 @@
+/* 
+Layout and Positioning 
+-------------------------------------------------------------------------------------------- */
+
+#header { display: inline; float: left; width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+	h2 { width: 666px; height: 134px; background: transparent url(../img/h2_about.gif) 7px 90px no-repeat; }
+
+.two-column { width:681px; float:left; display:inline; padding-bottom:16px; display:inline; background: transparent url(../img/bg_two_column_bottom.gif) bottom left no-repeat; }
+
+#deadline-intro { display: inline; float: left; width: 436px; margin:0px 0px 0px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_left_top.gif) top left no-repeat; }
+	#catch { display: inline; float: left; width: 438px; height: 98px; overflow: hidden; text-indent: -4000px; background: transparent url(../img/about_award_catch.gif) 18px 0px no-repeat; }
+
+#global-intro { display: inline; float: left; width:245px; margin:0px 0px 0px 0px !important; padding: 0px 0px 0px 0px !important; background: transparent url(../img/bg_right_top.gif) top left no-repeat; }
+
+#timeline { display: inline; float: left; width: 681px; height: 140px; margin-top: 1px; margin-bottom: 16px; overflow: hidden; background: transparent url(../img/bg_updated_timeline.gif) 5px 0px no-repeat; }
+#timeline dt, 
+#timeline dd { display: block height: 12px; width: 12px; overflow: hidden; }
+
+#about-outro { display: inline; float: left; width: 681px; padding-bottom:24px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat; }
+
+#clock { display: inline; float: left; width:181px; height:24px; overflow: hidden; background: transparent url(../img/about_award_clock.gif) 0px 0px no-repeat; }
+
+#h-keypoints { margin: 16px 20px 8px 54px !important; padding-bottom: 3px; border-bottom: 1px solid #ffc7cd;}
+
+#keypoints { margin: 0px 20px 8px 54px !important; padding-left: 0; }
+#keypoints li { padding-left: 0; padding-bottom: 5px; list-style-position: outside; list-style-image: url(../img/check.gif); border-bottom:1px solid #dcdad3;}
+
+#anyone { display: inline; float: left; width: 403px; height: 156px; margin: 0px 0px 0px 14px; background: transparent url(../img/about_award_anyone.gif) 5px 0px no-repeat;}
+#anyone li, 
+#anyone h4 { display:block; overflow: hidden; }
+
+/* 
+Typography 
+-------------------------------------------------------------------------------------------- */
+
+.right h4 { color: #2c2d2e; }
+
+#upload { text-align: center; }
+
+#timeline dt,
+#timeline dd,
+#clock,
+#anyone h4,
+#anyone li { text-indent: -4000px; }

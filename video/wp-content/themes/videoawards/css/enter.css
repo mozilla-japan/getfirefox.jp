@@ -1,0 +1,309 @@
+
+#loadingClock { margin: 10px auto 20px auto; text-align: center; }
+
+#header { width:681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat;}
+	h2#header-step-1 { width:666px; height:134px; background: transparent url(../img/h2_form_step_1.gif) 7px 90px no-repeat;}
+	h2#header-step-2 { width:666px; height:134px; background: transparent url(../img/h2_form_step_2.gif) 7px 90px no-repeat;}
+	h2#header-step-3 { width:666px; height:134px; background: transparent url(../img/h2_form_step_3.gif) 7px 90px no-repeat;}
+	h2#thankyoupage { width:666px; height:134px; background: transparent url(../img/h2_form_step_4.gif) 7px 90px no-repeat;}
+#loftworkAvatarPreview { width: 250px;  margin: 0px 0px 15px 125px; }
+#loftworkAvatarPreview img { margin: 0px 0px 10px 0px; }
+
+#overlay { position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 100%; background-color: #000; filter:alpha(opacity=60); -moz-opacity: 0.6; opacity: 0.6; }
+#overlayContentContainer { position: absolute; top: 0; left: 0; z-index: 9998; width: 100%; height: 100%; }
+#loadingMsg { top: 0; z-index: 9999; width: 500px; margin: 80px auto 0px auto; padding: 20px; background-color: #fff; border: 1px solid #ccc; }
+	#loadingMsg h3 {
+		font-size: 1.7em;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #efefef;
+		}
+		
+	#loadingMsg p {
+		margin-bottom: 20px;
+		font-size: 1.4em;
+		color: #7f7f7f;
+		}
+
+	#loftworkData { float: left; margin-right: -3px; }	
+	#loftworkLoadingImg { float: right; }
+
+#errorBox {
+	width: 350px;
+	background-color: #fddfdf; 
+	border: 1px solid #ff0000; 
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 6px;
+	padding-bottom: 0px;
+	}
+	
+	#errorBox p { color: #f00; font-size: 1.4em; }
+
+
+/* ------ Entry Form ------ */
+
+	#h-keypoints { margin: 16px 20px 4px 38px !important; padding-bottom:7px; border-bottom: 1px solid #ffc7cd;}
+	#keypoints { margin: 0px 20px 8px 38px !important;padding-left:0;}
+	#keypoints li { padding-left: 0; padding-bottom:5px; list-style-position: outside; list-style-image: url(../img/check.gif); border-bottom:1px solid #dcdad3;}
+	
+	#checklist {
+		float: left;
+		width: 430px; 
+		margin-bottom: 20px; 
+		}
+		
+	#instructions, #reviewInstructions, #instructionsUpload {
+		float: left; 
+		display: inline;
+		width: 363px; 
+		background-color: #FFFADD;
+		margin-left: 38px; 
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		}	
+		
+		#instructionsUpload {
+			width: 385px;
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 20px;
+			padding-bottom: 0px;
+			}
+		
+		#reviewInstructions {
+			width: auto;
+			margin-right: 20px;
+			margin-left: 120px; 
+			margin-top: 20px;
+			margin-bottom: 10px;
+			}
+		
+		#instructions p, #reviewInstructions p {
+			margin: 0px; 
+			font-weight: bold;
+			}
+	
+	#aboutYourWork, #aboutYou, #uploadMovie {
+		float: left;
+		display: inline;
+		width: 429px;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid #efefef; 
+		margin-left: 4px; 
+		overflow: hidden;
+		}
+		
+		#uploadMovie {
+			border-top: none;
+			margin-top: 10px;
+			}
+			
+			#uploadMovie p {
+				margin: 0px;
+				}
+	
+	#aboutYourWork h3, #aboutYou h3, #uploadMovie h3 {  
+		float:left; 
+		display: inline; 
+		height: 30px; 
+		width: 428px; 
+		margin-left: 0px; 
+		overflow: hidden; 
+		text-indent: -4000px; 
+		background-image: url(../img/h3_submission.gif); 
+		background-repeat: no-repeat;
+		margin-bottom: 16px !important;
+		}
+	
+	
+		#aboutYou h3 {
+			background-position: 0px -30px;
+			}
+			
+		#uploadMovie h3 {
+			background-position: 0px -60px;
+			border-bottom: 1px solid #efefef;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+			}
+	
+	
+	/* ---- Footer ---- */
+	
+		#contactBottom, #uploadBottom {
+			margin: 0px;
+			float: left; 
+			width: 436px;
+			background: transparent url(../img/bg_left_bottom.gif) bottom left no-repeat;
+			}
+			
+			#uploadBottomContainer {
+				float: left;
+				width: 427px;
+				margin-top: 10px;
+				padding-top: 20px;
+				border-top: 1px solid #efefef; 
+				margin-left: 4px; 
+				margin-bottom: 30px;
+				}
+			
+			#submitButton {
+				float: left; 
+				margin-left: 123px; 
+				}
+			
+			#contactBottom p {
+				border-top: 1px solid #efefef;
+				float: left; 
+				}
+	
+	/* ---- Labels ---- */
+	
+		label {
+			float: left;
+			width: 100px; 
+			text-align: right; 
+			padding-right: 5px; 
+			}
+			
+		input {
+			float: left;
+			}
+			
+			input text {
+				width: 350px;
+				}
+				
+		.important {
+			color: #F57E2E; 
+			}
+			
+		#entryForm p { display: inline; float: left; width: 400px; margin-left: 20px; margin-bottom: 25px; }
+
+		#avatarPreview {
+			display: inline;
+			float: left;
+			margin: -15px 0px 10px 125px;
+			}
+		
+		
+
+/* ----- Right Column ------ */	
+	
+	.right {
+		padding-top: 0px; 
+		}
+		
+		#right-bottom {
+			padding-bottom:16px; background: transparent url(../img/bg_right_bottom.gif) bottom left no-repeat;
+			}
+			
+								
+/* ------ REVIEW CONTENT -------*/
+
+#reviewContent h3 { 
+	color: #F57E2E;
+	font-size: 1.5em; 
+	font-weight: bold;
+	margin-left: 120px; 
+	margin-bottom: 20px;
+	}
+	
+	#reviewContent p {
+		margin: 0px;
+		padding: 0px; 
+		}
+	
+	#reviewCreation {
+		float: left;
+		margin-top: 0px; 
+		padding-top: 20px; 
+		}
+		
+	#reviewTop, #uploadTopLeft, #uploadTopRight {
+		width:681px; 
+		float:left; 
+		display:inline; 
+		margin:0px 0px 0px 0px !important; 
+		padding: 0px 0px 0px 0px !important; 
+		background: #fff url(../img/bg_full_top.gif) top left no-repeat;
+		}
+		
+		#uploadTopLeft {
+			width: 433px;
+			padding: 0px;
+			background: #fff url(../img/bg_left_top.gif) top left no-repeat;
+			}
+			
+		#uploadTopRight {
+			width: 244px;
+			background: #fff url(../img/bg_right_top.gif) top left no-repeat;
+			}
+		
+	#reviewCreator {
+		width: 675px;
+		float: left;
+		margin-left: 3px;
+		padding-top: 20px; 
+		margin-top: 20px; 
+		border-top: 1px solid #efefef;	
+		}
+		
+	.reviewGroup {
+		float: left;
+		width: 670px;
+		margin-bottom: 15px;
+		}
+		
+	.reviewLeftCol {
+		float: left; 
+		width: 120px;
+		text-align: right;
+		margin-right: 10px; 
+		}
+		
+		.reviewLeftCol p {
+			color: #7f7f7f;
+			font-weight: bold;
+			}
+		
+	.reviewRightCol {
+		float: left;
+		width: 500px;
+		}
+
+		.reviewRightColUpload {
+			float: left;
+			width: 280px;
+			}
+		
+	#reviewBottom {
+		margin: 0px;
+		float: left; 
+		width: 680px;
+		padding-bottom: 30px; 
+		padding-top: 10px; 
+		background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;
+		}
+		
+	#reviewBottomGroup {
+		width: 675px;
+		float: left;
+		margin-left: 3px;
+		padding-top: 20px; 
+		margin-top: 20px; 
+		border-top: 1px solid #efefef;	
+		}
+
+/* Thank You Page */
+
+#video-thx {width:681px; float:left; display:inline; height:200px; margin:0px 0px 0px 0px !important; padding: 16px 0px 0px 0px !important; background: transparent url(../img/bg_full_all.gif) top left no-repeat;}
+
+
+
+				

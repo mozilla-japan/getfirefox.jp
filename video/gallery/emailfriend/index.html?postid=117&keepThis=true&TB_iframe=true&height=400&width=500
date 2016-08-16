@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"> 
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="copyright" content="Copyright (c) 2007 Mozilla Japan and Mozilla Corporation. All rights reserved." />
+	<link rel="alternate" type="application/rss+xml" title="最新ニュース" href="/video/feed/" />
+	<title>2007 Get Firefox ビデオアワード | Email A Friend</title>
+	<style type="text/css" media="screen">
+	@import "/video/wp-content/themes/videoawards/css/global.css";
+	@import "/video/wp-content/themes/videoawards/css/gallery.css";
+	</style>
+</head>
+
+<body>
+<!-- errorCode:  -->
+<!-- email_friend.php -->
+<div id="errorBox" style="display: none;">
+	<h3>お問い合わせフォームに誤りがあります。</h3>
+	<p></p>
+</div>
+
+<div id="emailFriendForm">
+
+	<h3>ビデオ： SecurityMan＜FireFox</h3>
+	<h4>メールでシェアする</h4>
+	<form action="/video/submit/submit_email_friend.php" method="post">
+		<p>
+			<label for="name">あなたのお名前：</label><br />
+			<input class="" id="name" name="name" type="text" value="" />
+		</p>
+		<p>
+			<label for="email">あなたのメールアドレス：</label><br />
+			<input class="" id="email" name="email" type="text" value="" />
+		</p>
+		<p>
+			<label for="friendsemail">お友達のメールアドレス：</label><br />
+			<input class="" id="friendsemail" name="friendsemail" type="text" value="" />
+		</p>
+		<p>
+			<label for="message">メッセージ (任意)：</label><br />
+			<textarea name="message" rows="6" cols="30"></textarea>
+		</p>
+		<div id="captcha">
+			<img src="/video/submit/no_spam_png.php" alt="SxPxAxM" />
+			<p>
+				<label for="captcha">大量送信防止のため、お手数ですが、上に表示されている 5 つの文字を正確に入力してください：</label><br />
+				<input id="captcha" name="captcha" type="text" />
+			</p>			
+		</div>			
+		<p>
+			<input value="送信" type="submit" />
+			<input name="wppostid" value="117" type="hidden" />
+		</p>
+	</form>
+</div>
+
+</body>
+</html>
+
+<!-- Dynamic Page Served (once) in 0.696 seconds -->

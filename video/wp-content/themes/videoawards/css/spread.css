@@ -1,0 +1,26 @@
+
+/* 
+Layout and Positioning 
+------------------------------------------------------------------------------------------------------------ */
+#header { width: 681px; height: 134px; background: #fff url(../img/bg_h2.jpg) top left no-repeat; }
+
+h2 { width: 666px; height:134px; background: transparent url(../img/h2_spread.gif) 7px 90px no-repeat; }
+
+#spread-intro { display: inline; float: left; width: 677px; margin: 0px 0px 16px 0px !important; padding: 16px 0px 0px 4px !important; background: transparent url(../img/bg_full_top.gif) top left no-repeat; }
+
+.banner-spread { width:677px; float:left; display:inline; clear:left; }
+.banner-spread h5 { font-size:1.2em; margin: 0px 0px 4px 20px; }
+.banner-spread img {float:left; display:inline; margin-right:16px; margin-left:20px; margin-bottom:16px;  }
+.banner-spread textarea {float:left; padding-top:0; margin-bottom:16px; width: 400px; height: 5em; }
+
+#floq {}
+#floq textarea { margin-top: 10px; }
+	#floqPreview { display: inline; float: left; height: 470px; margin: 0px 15px 0px 25px; overflow: hidden; }
+
+#last-banner {width:677px; padding-bottom:16px; background: transparent url(../img/bg_full_bottom.gif) bottom left no-repeat;}
+
+/* 
+Typography 
+------------------------------------------------------------------------------------------------------------ */
+
+#spread-intro { font-size:1.2em; font-weight: bold; color:#666; }

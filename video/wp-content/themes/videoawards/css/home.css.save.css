@@ -1,0 +1,20 @@
+/*		HOME		*/
+
+	h2 { height:273px; width:681px; text-indent:-4000px; overflow:hidden; background: #fff url(../img/bg_header_home.jpg) top left no-repeat;}
+	#sponsors {}
+		#mozilla {}
+		#cooperation {}
+			#cooperation li {}
+			
+	#three-ways {}
+		#three-ways h3 { margin-left:0; height:30px; overflow: hidden; text-indent: -4000px; float:left; display: inline; background-image: url(../img/h3_home.gif); background-repeat: no-repeat;}
+		#make {}
+			#make h3 {width:408px;}
+			#make p {width:398px;}
+			#make #senden-video {width:243px; margin-top:16px; float:right; display:inline;}
+		#vote {width:438px; float:left; display:inline;}
+			#vote h3 {width:438px; background-position: 0px -30px;}
+			
+		#spread {width:243px; float:left; display:inline;}
+			#spread h3 {width:243px; background-position: 0px -60px;}
+/*		TYPOGRAPHY	 */

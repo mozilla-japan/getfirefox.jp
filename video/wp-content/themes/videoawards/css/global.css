@@ -1,0 +1,164 @@
+
+/*	
+Layout and Positioning
+------------------------------------------------------------------------------------- */
+
+body, p, li, ol, ul, dd, dt, dl, h1, h2, h3, h4, h5, h6, a, img { margin: 0; padding: 0; border: 0; }
+
+body { padding-bottom: 50px; background: #f5f9fe url(../img/bg_body.gif) top left repeat-x; }
+
+a:link, a:visited { color: #1f84bd; }
+a:hover, a:active { color: #289fe2; }
+ 
+h1 { display: inline; float: left; width: 178px; height: 274px; overflow: hidden; background: #fff url(../img/bg_h1.jpg) top left no-repeat; }
+h1 a { display: block; width: 178px; height: 274px; overflow: hidden; }
+
+#content h2 { overflow: hidden; }
+#content h3 { height: 26px; margin: 0px 20px 20px 16px; }
+#content h4 { margin: 16px 20px 8px 20px; }
+#content p { margin: 0px 20px 8px 20px; }
+#content ul { margin: 0px 20px 0px 20px; }
+#content ol { margin: 0px 20px 0px 20px; }
+#content dt { margin: 0px 60px 8px 20px; }
+#content dd { margin: 0px 60px 16px 20px; }
+
+/* container divs and their decendents */
+
+#wrapper { width: 859px; margin: 0 auto; text-align: justify; text-justify: inter-ideograph;}
+
+#sidebar { display: inline; float: left; width: 178px; }
+
+	#nav { display: inline; float: left; width: 178px; height: 307px; padding-top: 7px; background: #f5f9fe url(../img/bg_nav.gif) top left no-repeat; }
+
+		#nav li { display: inline; float: left; margin: 0 0 0 11px; }
+
+		#nav li, 
+		#nav li a:link, 
+		#nav li a:visited, 
+		#nav li a:hover, 
+		#nav li a:active, 
+		#nav span { width: 156px; height: 32px; background-image: url(../img/nav_final.gif); background-color: #f5f9fe; background-repeat: no-repeat; }
+
+		#nav li a:link, 
+		#nav li a:visited, 
+		#nav li a:hover, 
+		#nav li a:active,
+		#nav span { display: block; text-indent: -4000px; overflow: hidden;}
+
+		#nav #home { background-position: 0px 0px; }
+			#nav #home a:hover,
+			#nav #home a:active {background-position: -156px 0px;}
+			#nav #home span.current {background-position: -312px 0px; }
+			
+		#nav #award, #nav #award a:link, #nav #award a:visited { background-position: 0px -32px;}
+			#nav #award a:hover,
+			#nav #award a:active {background-position: -156px -32px;}
+			#nav #award span.current {background-position: -312px -32px; }
+
+		#nav #party, #nav #party a:link, #nav #party a:visited  { background-position: 0px -64px;}
+			#nav #party a:hover,
+			#nav #party a:active {background-position: -156px -64px;}
+			#nav #party span.current {background-position: -312px -64px;}
+
+		#nav #navGallery, #nav #navGallery a:link,#nav #navGallery a:visited { background-position: 0px -96px; }
+			#nav #navGallery a:hover,
+			#nav #navGallery a:active { background-position: -156px -96px; }
+			#nav #navGallery a.current {background-position: -312px -96px; }
+			#nav #navGallery span.current {background-position: -312px -96px;}
+			#nav #navGallery span.disabled {background-position: -468px -96px; }
+
+		#nav #faq, #nav #faq a:link, #nav #faq a:visited { background-position: 0px -128px;}
+			#nav #faq a:hover,
+			#nav #faq a:active {background-position: -156px -128px;}
+			#nav #faq span.current {background-position: -312px -128px;}
+
+		#nav #news, #nav #news a:link, #nav #news a:visited { background-position: 0px -160px;}
+			#nav #news a:hover,
+			#nav #news a:active {background-position: -156px -160px;}
+			#nav #news span.current {background-position: -312px -160px;}
+
+		#nav #firefox, #nav #firefox a:link, #nav #firefox a:visited { background-position: 0px -192px;}		
+			#nav #firefox a:hover,
+			#nav #firefox a:active {background-position: -156px -192px;}
+			#nav #firefox span.current {background-position: -312px -192px;}
+
+		#nav #contact, #nav #contact a:link, #nav #contact a:visited { background-position: 0px -224px;}		
+			#nav #contact a:hover,
+			#nav #contact a:active {background-position: -156px -224px;}
+			#nav #contact span.current {background-position: -312px -224px;}
+
+		#nav #spread, #nav #spread a:link, #nav #spread a:visited { background-position: 0px -256px;}		
+			#nav #spread a:hover,
+			#nav #spread a:active {background-position: -156px -256px;}
+			#nav #spread span.current {background-position: -312px -256px;}
+
+
+#content { display: inline; float: left; width: 681px; overflow: hidden; }
+
+.full { display: inline; float: left; width: 681px; margin: 0 0 3px 0; background: #fff url(../img/bg_full_middle.gif) top left repeat-y; }
+.left { display: inline; float: left; width: 436px; margin: 0 0 3px 0; background: #fff url(../img/bg_left_middle.gif) top left repeat-y; }
+.right { display: inline; float: left; width: 244px; background: #fff url(../img/bg_right_middle.gif) top left repeat-y; }
+
+/* Sidebar */
+#sponsors { display: inline; float: left; }
+#sponsors h3 { display: inline; float: left; width: 170px; margin-top: 16px; padding-left: 5px; }
+	#mozilla { display: inline; float: left; width: 171px; margin: 5px 0; height:56px; background: transparent url(../img/sidebar_sp_mozilla.gif) top left no-repeat;}
+	#mozilla a { display: block; width: 171px; height: 56px; overflow: hidden; text-indent: -4000px;}
+	#eyevio { display: inline; float: left; margin: 5px 0; width:171px; height:56px; background: transparent url(../img/sidebar_sp_eyevio.gif) top left no-repeat;}
+	#eyevio a { width:171px; height:56px; display: block; overflow: hidden; text-indent: -4000px;}
+	#loftwork { display: inline; float: left; margin: 5px 0; width:171px; height:56px; background: transparent url(../img/sidebar_sp_lw.gif) top left no-repeat;}		
+	#loftwork a { width:171px; height:56px; display: block; overflow: hidden; text-indent: -4000px;}
+	#wacom { display: inline; float: left; margin: 5px 0px; width: 170px; height: 170px; background: transparent url(../img/sidebar_sp_wacom.gif) top left no-repeat;}		
+	#wacom a { width: 170px; height: 170px; display: block; overflow: hidden; text-indent: -4000px;}
+	#cooperation { display: inline; float: left; }
+	/* #cooperation li {clear:left; font-size: 1.2em; padding-bottom: 4px; width:165px; list-style: none;} */
+	/* #cooperation li a:link, #cooperation li a:visited, #cooperation li a:hover, #cooperation li a:active {color: #2c2d2e; text-decoration: none;} */
+    #cooperation li { margin: 5px 0; width:88px; height:36px; float: left; display: inline; list-style: none; }
+    #cooperation li a { width:88px; height:36px; display: block; overflow: hidden; text-indent: -4000px; }
+    #coop-adobe { background: url(../img/sidebar_co_adobe.gif); } 
+    #coop-ccjp  { background: url(../img/sidebar_co_ccjp.gif); } 
+    #coop-sony  { background: url(../img/sidebar_co_sony.gif); } 
+    #coop-wacom { background: url(../img/sidebar_co_wacom.gif); } 
+
+/* footer*/
+#footer { width: 681px; clear: both; display: block; margin-left: 182px; }
+	#footerInfo { display: inline; float: left; width: 500px; }
+	#byAQ { display: inline; float: right; width: 100px; height: 20px; margin: 4px 8px 0px 0px; background: transparent url(../img/credit-aq.gif) top left no-repeat; }
+	#byAQ a { display: block; width: 100px; height: 20px; text-indent: -5000px; background: transparent url(../img/credit-aq.gif) top left no-repeat; }
+	#byAQ a:hover { background-position: bottom left; }
+	
+.clearBoth { clear: both; }    
+
+/*	 
+Typography
+------------------------------------------------------------------------------------- */
+
+body { font-size: 62.5%; font-family: "Lucida Grande","Bitstream Vera Sans","Segoe UI",Calibri,Verdana,Arial,"ヒラギノ角ゴ Pro W3",メイリオ,"ＭＳ Ｐゴシック",IPAPGothic,sans-serif; text-align: center; color:#000000; }
+
+p { font-size: 1.2em; line-height: 1.5; }
+
+li { font-size: 1.2em; line-height: 1.5; }
+
+h1, 
+h1 a { text-indent: -4000px; }
+
+#content h2 { text-indent: -4000px; }
+
+h3 { color: #000;}
+h3 a:link, 
+h3 a:visited, 
+h3 a:hover, 
+h3 a:active { color: #000;}
+
+h4 { color: #f48a22; font-size: 1.4em; }
+
+dt { font-size: 1.2em; line-height: 1.5; font-weight: bold; }
+dd { font-size: 1.2em; line-height: 1.5; }
+	
+#sponsors h3 {font-size: 1.0em; font-weight: bold; color: #626262; } 
+
+#footer #footer-nav li { display: inline; }
+
+#footer p, 
+#footer li { font-size: 1.0em; color: #666; }
+
